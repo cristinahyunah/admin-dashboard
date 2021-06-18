@@ -151,6 +151,11 @@ main {
         border-radius: 2px;
 }
 
-.card-single h1 {
+.card-single div:last-child span{
+        color:var(--main-color);
+        font-size: 3rem;
+}
 
+.card-single div:first-child span{
+        color:var(--text-grey);
 }

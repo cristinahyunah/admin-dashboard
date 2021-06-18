@@ -159,3 +159,14 @@ main {
 .card-single div:first-child span{
         color:var(--text-grey);
 }
+.card-single:last-child { /*alterabdo a cor caixa do n 6K: cor main*/
+        background:var(--main-color);
+}
+
+/*alterando cor no card do 6k, fonte e icone*/
+.card-single:last-child h1,
+.card-single:last-child div:first-child span,
+.card-single:last-child div:last-child span {
+        color: #fff;
+}
+

@@ -15,6 +15,7 @@
         font-family: 'Poppins', sans-serif;
 }
 
+/* Lateral Menu - SideBar*/
 .sidebar {
         width: 345px;
         position: fixed;
@@ -69,7 +70,7 @@
 .main-content {
         margin-left: 345px;
 }
-
+/*Toda parte de pesquisa - Header*/
 header {
         display: flex;
         justify-content: space-between;
@@ -127,7 +128,7 @@ header label span {
         display: inline-block;
         color: var(--text-grey);
 }
-
+/*Informações: pedidos e etc*/
 main {
         margin-top: 85px;
         padding: 2rem 1.5rem;
@@ -139,10 +140,17 @@ main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
+        margin-top: 1rem;
 }
 
 .card-single {
         display: flex;
         justify-content: space-between;
         background: #fff;
+        padding: 2rem;
+        border-radius: 2px;
+}
+
+.card-single h1 {
+
 }
